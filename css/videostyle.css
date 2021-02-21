@@ -1,0 +1,64 @@
+ 
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+header{
+  display:flex;
+  padding: 30px 10%;
+  background-color: #24252A;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logo{
+  cursor: pointer;
+  height: 80px;
+}
+main{
+  background-color: rgb(141, 128, 128);
+}
+ .modal {
+   display: flex;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+    
+}
+p{
+  color:white;
+  transition: all 0.3s ease 0s;
+}
+
+p:hover{
+  color: darkred;
+}
+
+.modal-content {
+  background-color: rgb(46, 43, 43);
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 18.5%; /* Could be more or less, depending on screen size */
+}
+  
